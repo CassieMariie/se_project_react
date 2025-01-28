@@ -1,0 +1,19 @@
+.footer__container {
+  margin-top: 171px;
+  padding: 0;
+  display: flex;
+}
+
+.footer__developer {
+  margin: 0;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.footer__year {
+  margin: 0 0 0 auto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
