@@ -9,7 +9,7 @@ import Footer from "../Footer/Footer";
 import ItemModal from "../ItemModal/ItemModal";
 import Profile from "../Profile/Profile";
 import { getWeather, filterWeatherData } from "../../utils/weatherApi";
-import CurrentTemperatureUnitContext from "../CurrentTemperature/CurrentTemperatureUnit";
+import CurrentTemperatureUnitContext from "../../utils/CurrentTemperatureUnit";
 import AddItemModal from "../AddItemModal/AddItemModal";
 import { defaultClothingItems } from "../../utils/constants";
 import { getItems } from "../../utils/api";
