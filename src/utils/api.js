@@ -6,4 +6,21 @@ function getItems() {
   });
 }
 
-export { getItems };
+function addItem(item) {
+  return fetch(`${baseUrl}/items`, {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify(item),
+  })
+    .then((res) => res.json())
+    .then((data) => ({
+      _id: data._id,
+      name: data.name,
+      imageUrl: data.imageUrl,
+      weather: data.weather,
+    }));
+}
+
+export { getItems, addItem };
