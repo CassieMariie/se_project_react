@@ -23,4 +23,10 @@ function addItem(item) {
     }));
 }
 
-export { getItems, addItem };
+function deleteItem(id) {
+  return fetch(`${baseUrl}/items/${id}`, {
+    method: "DELETE",
+  }).then((res) => res.json());
+}
+
+export { getItems, addItem, deleteItem };

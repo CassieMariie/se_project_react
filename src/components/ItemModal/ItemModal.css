@@ -6,3 +6,36 @@
   margin-left: -28px;
   margin-top: -28px;
 }
+
+.modal__caption {
+  width: 36px;
+  height: 24px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.modal__footer {
+  position: relative;
+}
+
+.modal__weather {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  margin: 0;
+}
+
+.modal__delete {
+  position: absolute;
+  margin-left: 297px;
+  top: 2px;
+  right: 2px;
+  border: none;
+  background: transparent;
+  color: #ff4d00;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  cursor: pointer;
+}
