@@ -2,7 +2,7 @@ import Sidebar from "../Sidebar/Sidebar";
 import ClothesSection from "../ClothesSection/ClothesSection";
 import "./Profile.css";
 
-function Profile({ handleCardClick, handleActiveModal }) {
+function Profile({ handleCardClick, handleActiveModal, clothingItems }) {
   return (
     <div className="profile">
       <section className="profile__sidebar">
@@ -10,6 +10,7 @@ function Profile({ handleCardClick, handleActiveModal }) {
       </section>
       <section className="profile__clothes-section">
         <ClothesSection
+          clothingItems={clothingItems}
           handleCardClick={handleCardClick}
           handleActiveModal={handleActiveModal}
         />

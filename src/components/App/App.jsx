@@ -96,6 +96,7 @@ function App() {
               path="/profile"
               element={
                 <Profile
+                  clothingItems={clothingItems}
                   handleCardClick={handleCardClick}
                   handleActiveModal={handleActiveModal}
                 />
